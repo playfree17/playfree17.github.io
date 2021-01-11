@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&family=EB+Garamond:ital@1&family=JetBrains+Mono:ital,wght@1,100&family=Jura:wght@600&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	background-color: #20f70c;
+	height: 100px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+header .box{
+	color: red;
+	width: 100px;
+	flex-grow: 1;
+	background-color: orange;
+	margin: 10px;
+	border-radius: 20px;
+	border: 5px solid;
+}
+header .box:hover {
+	background-color: #73abff;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+header .box a{
+	color: #0339fc;
+	text-decoration:none;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 20px;
+	font-family: 'Jura', sans-serif;
+}
+header .box a:hover{
+	color: #ffffff;
+}
